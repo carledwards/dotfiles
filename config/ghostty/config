@@ -1,6 +1,11 @@
 # https://ghostty.org/docs/config/reference
 font-family = "MesloLGS NF"
 font-size = 14
-theme = "Builtin Solarized Dark"
+theme = CutiePro
 quit-after-last-window-closed = true
 confirm-close-surface = false
+auto-update-channel = tip
+cursor-style = block
+macos-titlebar-style = tabs
+cursor-invert-fg-bg = true
+shell-integration-features = no-cursor

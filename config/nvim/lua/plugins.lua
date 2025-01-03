@@ -3,11 +3,11 @@ return {
   { "folke/lazy.nvim", version = "*" },
 
   {
-    "ishan9299/nvim-solarized-lua",
+    "rebelot/kanagawa.nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      vim.cmd("colorscheme solarized")
+      vim.cmd("colorscheme kanagawa")
     end,
   },
 
@@ -185,7 +185,20 @@ return {
         "bash",
         "lua",
         "vim",
-        "vimdoc"
+        "vimdoc",
+        "go",
+        "javascript",
+        "typescript",
+        "tsx",
+        "python",
+        "html",
+        "css",
+        "json",
+        "yaml",
+        "markdown",
+        "dockerfile",
+        "rust",
+        "zig"
       },
       sync_install = false,
       auto_install = true,
