@@ -47,9 +47,17 @@ fi
 # Set OMZ installation location.
 ZSH=$HOME/.oh-my-zsh
 DISABLE_UPDATE_PROMPT=true
-# Set zsh theme to be powerlevel10k with patched fontawesome symbols.
-POWERLEVEL9K_MODE='nerdfont-v3'
-ZSH_THEME='powerlevel10k/powerlevel10k'
+
+# Only set p10k theme if we're not using simple prompt
+if [[ -z $SIMPLE_PROMPT ]]; then
+    # Set zsh theme to be powerlevel10k with patched fontawesome symbols.
+    POWERLEVEL9K_MODE='nerdfont-v3'
+    ZSH_THEME='powerlevel10k/powerlevel10k'
+else
+    # Set a basic theme for simple prompt mode
+    ZSH_THEME='simple'
+fi
+
 # OMZ messes with the ls colors by default. Let's not have it do that.
 DISABLE_LS_COLORS=true
 export LS_COLORS=
@@ -216,3 +224,5 @@ fi
 if [[ -f ~/.zshrc.local ]]; then
   source ~/.zshrc.local
 fi
+
+alias gam="/Users/carledwards/bin/gam7/gam"
