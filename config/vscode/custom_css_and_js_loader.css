@@ -1,0 +1,7 @@
+.explorer-item {
+  font-family: "JetbrainsMono Nerd Font";
+  font-size: 14px;
+}
+.monaco-split-view2>.sash-container>.monaco-sash {
+  background-color: #2d2d2d;
+}
