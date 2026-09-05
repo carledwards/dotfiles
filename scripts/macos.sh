@@ -29,6 +29,7 @@ brew install \
   eza \
   fd \
   fzf \
+  gh \
   git-delta \
   git-lfs \
   jq \
