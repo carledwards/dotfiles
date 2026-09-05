@@ -32,7 +32,7 @@ call plug#end()
 set number
 set ignorecase
 set smartcase
-set mouse=a
+"set mouse=a
 set hlsearch
 set background=dark
 syntax on

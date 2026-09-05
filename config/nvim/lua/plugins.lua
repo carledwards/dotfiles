@@ -176,6 +176,9 @@ return {
   -- Treesitter gives us better syntax highlighting than regex-based parsers.
   {
     "nvim-treesitter/nvim-treesitter",
+    -- Upstream's default branch is now the "main" rewrite, which dropped the
+    -- nvim-treesitter.configs module this config uses. Stay on master.
+    branch = "master",
     dependencies = {
       -- Show what function/class you're in.
       "nvim-treesitter/nvim-treesitter-context",

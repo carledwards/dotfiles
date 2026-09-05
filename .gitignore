@@ -1,3 +1,6 @@
+# macOS
+.DS_Store
+
 # Artifacts for vim-plug.
 plug.vim.old
 plugged
@@ -5,5 +8,8 @@ plugged
 # Artifacts for packer.
 packer_compiled.lua
 
-# Kitty artifacts.
-kitty.conf.bak
+# Symlink backups created by setup.sh.
+*.bak
+
+# Claude Code local settings.
+.claude/settings.local.json
