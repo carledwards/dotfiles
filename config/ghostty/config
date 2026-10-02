@@ -1,0 +1,8 @@
+# Ghostty config. Also read by cmux, which embeds Ghostty as its terminal.
+
+# Block cursor.
+cursor-style = block
+
+# Shell integration switches the cursor to a bar at the prompt by default;
+# disable that so the block cursor sticks.
+shell-integration-features = no-cursor

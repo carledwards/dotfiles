@@ -39,6 +39,10 @@
   //     "newWorkspacePlacement" : "afterCurrent"
   //   },
 
+  "terminal" : {
+    "copyOnSelect" : true
+  },
+
   //   "terminal" : {
   //     "rendererRealization" : {
   //       "enabled" : true,
